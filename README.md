@@ -78,7 +78,7 @@ We prepare a special demo for the google-colab, see: ```demo-colab.ipynb```.
 ### Face-swap
 It is possible to modify the method to perform face-swap using supervised segmentation masks.
 ![Screenshot](sup-mat/face-swap.gif)
-For both unsupervised and supervised video editing, such as face-swap, please refer to [Motion Co-Segmentation](https://github.com/AliaksandrSiarohin/motion-cosegmentation).
+For both unsupervised and supervised video editing, such as face-swap, please refer to [Motion Co-Segmentation](https://github.com/EnsignPayton/motion-cosegmentation).
 
 
 ### Training
@@ -104,7 +104,7 @@ CUDA_VISIBLE_DEVICES=0 python run.py --config config/dataset_name.yaml --mode re
 You will need to specify the path to the checkpoint,
 the ```reconstruction``` subfolder will be created in the checkpoint folder.
 The generated video will be stored to this folder, also generated videos will be stored in ```png``` subfolder in loss-less '.png' format for evaluation.
-Instructions for computing metrics from the paper can be found: https://github.com/AliaksandrSiarohin/pose-evaluation.
+Instructions for computing metrics from the paper can be found: https://github.com/EnsignPayton/pose-evaluation.
 
 ### Image animation
 
@@ -143,11 +143,11 @@ that the object in the first frame of the video and in the source image have the
 
 3) **Fashion**. Follow the instruction on dataset downloading [from](https://vision.cs.ubc.ca/datasets/fashion/).
 
-4) **Taichi**. Follow the instructions in [data/taichi-loading](data/taichi-loading/README.md) or instructions from https://github.com/AliaksandrSiarohin/video-preprocessing. 
+4) **Taichi**. Follow the instructions in [data/taichi-loading](data/taichi-loading/README.md) or instructions from https://github.com/EnsignPayton/video-preprocessing. 
 
-5) **Nemo**. Please follow the [instructions](https://www.uva-nemo.org/) on how to download the dataset. Then the dataset should be preprocessed using scripts from https://github.com/AliaksandrSiarohin/video-preprocessing.
+5) **Nemo**. Please follow the [instructions](https://www.uva-nemo.org/) on how to download the dataset. Then the dataset should be preprocessed using scripts from https://github.com/EnsignPayton/video-preprocessing.
  
-6) **VoxCeleb**. Please follow the instruction from https://github.com/AliaksandrSiarohin/video-preprocessing.
+6) **VoxCeleb**. Please follow the instruction from https://github.com/EnsignPayton/video-preprocessing.
 
 
 ### Training on your own dataset
